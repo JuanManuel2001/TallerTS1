@@ -47,7 +47,7 @@ function searchSerieByName(nameKey: string, series: Series[]) {
 function getAvgSeasons(series: Series[]): number {
   let totalCredits: number = 0;
   series.forEach((serie) => totalCredits = totalCredits + serie.temporada);
-  totalCredits=totalCredits/8;
+  totalCredits=totalCredits/6;
   return totalCredits;
 }
 
